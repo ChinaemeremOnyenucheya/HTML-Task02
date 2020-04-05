@@ -1,0 +1,131 @@
+body {background-color: #ADD8E6;}
+
+
+/*Piggybank logo*/
+#logo {	display: block;
+      	margin-left: auto;
+  		margin-right: auto;
+  		width: 200px;
+  		margin-top:40px;
+  		margin-bottom:40px;}
+
+  /*div housing the container*/
+.holder{display:block;
+		margin-left: auto;
+		margin-right: auto; 
+		width:450px;
+		justify-content: center;
+		background-color:#fff;
+		border-radius: 1.2rem 1.2rem 1.2rem 0;}
+
+/*h1 in container*/
+.holder h1 {text-align: center;
+		padding-top: 50px;
+		margin-bottom:0;
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		font-weight: 700;
+		font-family: U8,sans-serif;
+	    color:#083e9e;}
+
+/*Paragraph in container*/
+.holder p {font-family: Karla,sans-serif;
+		color: #4a5568;
+		font-size: 0.875rem;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom:40px;}
+
+/*Input label*/
+label {padding-left: 40px;
+	   font-weight: 700;
+	   font-size: 0.75rem;
+	   font-family:U8,sans-serif;
+	   color: #4a5568;}
+
+/*Input field for collecting user details*/
+input {color: #1a202c;
+	  background-color: #edf2f7;
+	  line-height:20px;
+	  width: 75%;
+	  padding: 1rem;
+	  margin-left: 40px;
+	  margin-top: 10px;
+	  margin-bottom: 18px;
+	  border: 0 solid #e2e8f0;
+	  border-radius: 4px 4px 4px 4px;}
+
+input::placeholder{color: #bdbebf;}
+
+input:focus {outline:none;}
+
+/*Drop-down select-menu*/
+select {width: 82%;
+	   background-color:#edf2f7;
+	   line-height: 20px;
+	   padding: 1rem;
+	   margin-left: 40px;
+	   margin-top: 10px;
+	   border: 0;
+	   border-radius: 6px 6px 6px 6px;}
+
+/*Submit button*/
+button{margin-top: 30px;
+	   margin-bottom: 40px;
+	   margin-left: 40px;
+	   width: 82%;
+	   background-color: rgb(8, 62, 158);
+	   font-family: U8,sans-serif;
+	   font-weight: 700;
+	   font-size: 0.875rem;
+	   text-align: center;
+	   color:#fff;
+	   height: 60px;
+	   border: 0;
+	   border-radius: 1.2rem 1.2rem 1.2rem 0;}    
+
+ button:hover {cursor: pointer;
+ 			  background-color:#000080;}
+
+ /*Last paragraph*/
+ #last {display: block;
+ 	    margin-left: auto;
+ 	    margin-right: auto;
+ 	    margin-top: 2rem;
+ 	    width: 250px;}
+
+ #last p{color:#fff;
+ 	     font-family:Karla,sans-serif; 
+ 		 font-weight: 400;
+ 		 font-size: 0.95rem;
+ 		 text-align: center;
+ 		 padding-top:0.25rem;
+ 		 padding-bottom:0.25rem; 
+ 		 padding-left:0.75rem;
+ 		 padding-right:0.75rem;}  
+
+ #last a{text-decoration: none;}
+   
+ #last p:hover {color: #0d0d0c;}
+
+/*Screen adjustment*/
+@media screen and (max-width: 320px){
+
+#logo{width:220px;
+	  margin-top: 15%;
+	  margin-bottom: 10%;}
+
+.holder{width: 280px;}
+
+.holder h1{font-size: 1.5rem;
+		  font-weight: 600;}
+
+.breakpoint{display: inline-block;
+			width: 200px;}
+
+input{width: 60%;}
+
+select{width: 71%}
+
+button{width: 71%;}
+}  
