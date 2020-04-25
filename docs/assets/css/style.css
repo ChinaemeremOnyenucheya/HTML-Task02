@@ -123,9 +123,48 @@ button{margin-top: 30px;
 .breakpoint{display: inline-block;
 			width: 200px;}
 
-input{width: 60%;}
+input{width: 62%;}
 
-select{width: 71%}
+select{width: 73%}
 
-button{width: 71%;}
+button{width: 73%;}
 }  
+
+
+@media screen and (min-width: 375px){
+
+ .holder{width: 350px;}
+
+ .holder h1{font-size: 1.5rem;
+		  font-weight: 600;}
+
+input{width: 69%;}
+
+select{width: 79%;}
+
+button{width: 79%;}
+}
+  
+
+@media screen and (min-width: 425px){
+
+ .holder{width: 400px;}
+
+ input{width: 73%;}
+
+ select{width: 83%;}
+
+ button{width: 83%;}
+}
+
+@media screen and (min-width: 768px){
+
+ .holder{width: 450px;}
+
+ input{width: 75%;}
+
+ select{width: 82%;}
+
+ button{width: 82%;}
+
+}
